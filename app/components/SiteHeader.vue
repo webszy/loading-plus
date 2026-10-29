@@ -2,14 +2,14 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="container site-header__inner">
-      <a class="brand" href="/" aria-label="Loading.plus, home">
+      <NuxtLink class="brand" to="/" aria-label="Loading.plus, home">
         <span class="brand__mark" aria-hidden="true" />
         <span class="brand__name">loading.plus</span>
-      </a>
+      </NuxtLink>
       <nav class="site-nav" aria-label="Primary">
-        <a href="#animations">Animations</a>
-        <a href="#categories">Categories</a>
-        <a href="#faq">FAQ</a>
+        <NuxtLink to="/#animations">Animations</NuxtLink>
+        <NuxtLink to="/text-loading">Text Loading</NuxtLink>
+        <NuxtLink to="/loading-text-gif">GIFs</NuxtLink>
       </nav>
     </div>
   </header>
@@ -86,6 +86,7 @@
   display: inline-flex;
   align-items: center;
   height: 44px;
+  white-space: nowrap;
   color: var(--color-text-secondary);
   font-size: 15px;
   font-weight: 500;

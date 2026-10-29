@@ -7,9 +7,12 @@
           <p class="site-footer__tag">Simple animations for better interfaces.</p>
         </div>
         <nav class="site-footer__nav" aria-label="Footer">
-          <a href="#animations">Animations</a>
-          <a href="#categories">Categories</a>
-          <a href="#faq">FAQ</a>
+          <NuxtLink to="/#animations">Animations</NuxtLink>
+          <NuxtLink to="/text-loading">Text Loading</NuxtLink>
+          <NuxtLink to="/loading-text-gif">GIFs</NuxtLink>
+        <NuxtLink to="/indeterminate-progress-bar-gif">Progress bars</NuxtLink>
+          <NuxtLink to="/shimmer-loading-gif">Shimmer</NuxtLink>
+          <NuxtLink to="/#faq">FAQ</NuxtLink>
         </nav>
       </div>
       <p class="site-footer__copy">© 2026 Loading.plus</p>

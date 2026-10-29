@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { faqItems } from '~/data/faq'
+withDefaults(defineProps<{ items?: { question: string; answer: string }[] }>(), { items: () => faqItems })
 </script>
 
 <template>
@@ -7,7 +8,7 @@ import { faqItems } from '~/data/faq'
     <div class="container faq__inner">
       <h2 id="faq-title" class="section-title">Frequently asked questions</h2>
       <div class="faq__list">
-        <details v-for="item in faqItems" :key="item.question" class="faq-item">
+        <details v-for="item in items" :key="item.question" class="faq-item">
           <summary>
             <h3>{{ item.question }}</h3>
           </summary>

@@ -1,0 +1,128 @@
+{
+  "loading-text": [
+    {
+      "name": "Classic Loading Text",
+      "description": "A gently pulsing loading message.",
+      "src": "/gifs/loading-text/classic-loading-text.gif",
+      "poster": "/gifs/loading-text/classic-loading-text.png",
+      "width": 400,
+      "height": 160,
+      "bytes": 34886,
+      "alt": "Classic Loading Text \u2014 A gently pulsing loading message."
+    },
+    {
+      "name": "Loading Dots GIF",
+      "description": "Three dots take turns after a steady label.",
+      "src": "/gifs/loading-text/loading-dots.gif",
+      "poster": "/gifs/loading-text/loading-dots.png",
+      "width": 400,
+      "height": 160,
+      "bytes": 4538,
+      "alt": "Loading Dots GIF \u2014 Three dots take turns after a steady label."
+    },
+    {
+      "name": "Please Wait GIF",
+      "description": "A calm waiting message with a moving underline.",
+      "src": "/gifs/loading-text/please-wait.gif",
+      "poster": "/gifs/loading-text/please-wait.png",
+      "width": 400,
+      "height": 160,
+      "bytes": 41850,
+      "alt": "Please Wait GIF \u2014 A calm waiting message with a moving underline."
+    },
+    {
+      "name": "Processing GIF",
+      "description": "A processing message with a cycling activity marker.",
+      "src": "/gifs/loading-text/processing.gif",
+      "poster": "/gifs/loading-text/processing.png",
+      "width": 400,
+      "height": 160,
+      "bytes": 42235,
+      "alt": "Processing GIF \u2014 A processing message with a cycling activity marker."
+    }
+  ],
+  "progress-bar": [
+    {
+      "name": "Linear Indeterminate Bar",
+      "description": "A short segment crosses an open track.",
+      "src": "/gifs/progress-bar/linear-indeterminate-bar.gif",
+      "poster": "/gifs/progress-bar/linear-indeterminate-bar.png",
+      "width": 640,
+      "height": 120,
+      "bytes": 17137,
+      "alt": "Linear Indeterminate Bar \u2014 A short segment crosses an open track."
+    },
+    {
+      "name": "Sliding Progress Bar",
+      "description": "A segment glides back and forth without measuring completion.",
+      "src": "/gifs/progress-bar/sliding-progress-bar.gif",
+      "poster": "/gifs/progress-bar/sliding-progress-bar.png",
+      "width": 640,
+      "height": 120,
+      "bytes": 17390,
+      "alt": "Sliding Progress Bar \u2014 A segment glides back and forth without measuring completion."
+    },
+    {
+      "name": "Continuous Looping Bar",
+      "description": "A moving band wraps around the track.",
+      "src": "/gifs/progress-bar/continuous-looping-bar.gif",
+      "poster": "/gifs/progress-bar/continuous-looping-bar.png",
+      "width": 640,
+      "height": 120,
+      "bytes": 17384,
+      "alt": "Continuous Looping Bar \u2014 A moving band wraps around the track."
+    },
+    {
+      "name": "Dual Segment Progress Bar",
+      "description": "Two offset segments travel across the track.",
+      "src": "/gifs/progress-bar/dual-segment-progress-bar.gif",
+      "poster": "/gifs/progress-bar/dual-segment-progress-bar.png",
+      "width": 640,
+      "height": 120,
+      "bytes": 17593,
+      "alt": "Dual Segment Progress Bar \u2014 Two offset segments travel across the track."
+    }
+  ],
+  "shimmer": [
+    {
+      "name": "Text Skeleton Shimmer",
+      "description": "An article heading and three lines of body copy.",
+      "src": "/gifs/shimmer/text-skeleton-shimmer.gif",
+      "poster": "/gifs/shimmer/text-skeleton-shimmer.png",
+      "width": 480,
+      "height": 260,
+      "bytes": 41066,
+      "alt": "Text Skeleton Shimmer \u2014 An article heading and three lines of body copy."
+    },
+    {
+      "name": "Card Skeleton Loading",
+      "description": "A feed card with media, a title, and a text excerpt.",
+      "src": "/gifs/shimmer/card-skeleton-loading.gif",
+      "poster": "/gifs/shimmer/card-skeleton-loading.png",
+      "width": 480,
+      "height": 260,
+      "bytes": 68921,
+      "alt": "Card Skeleton Loading \u2014 A feed card with media, a title, and a text excerpt."
+    },
+    {
+      "name": "Image Placeholder Shimmer",
+      "description": "A media placeholder reserves space while an image arrives.",
+      "src": "/gifs/shimmer/image-placeholder-shimmer.gif",
+      "poster": "/gifs/shimmer/image-placeholder-shimmer.png",
+      "width": 480,
+      "height": 260,
+      "bytes": 90136,
+      "alt": "Image Placeholder Shimmer \u2014 A media placeholder reserves space while an image arrives."
+    },
+    {
+      "name": "Profile Skeleton Loading",
+      "description": "An avatar and account details form a compact profile row.",
+      "src": "/gifs/shimmer/profile-skeleton-loading.gif",
+      "poster": "/gifs/shimmer/profile-skeleton-loading.png",
+      "width": 480,
+      "height": 260,
+      "bytes": 45297,
+      "alt": "Profile Skeleton Loading \u2014 An avatar and account details form a compact profile row."
+    }
+  ]
+}

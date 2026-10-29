@@ -20,6 +20,7 @@ import { categories } from '~/data/categories'
           <AnimationPreview :id="category.preview" />
         </CategoryCard>
       </div>
+      <p style="margin-top: 20px"><NuxtLink class="text-link" to="/loading-text-gif">Prefer ready-made images? Browse loading text GIFs →</NuxtLink></p>
     </div>
   </section>
 </template>

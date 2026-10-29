@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ['/'],
+      routes: ['/', '/text-loading', '/loading-text-gif', '/indeterminate-progress-bar-gif', '/shimmer-loading-gif'],
     },
   },
   routeRules: {

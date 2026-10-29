@@ -13,7 +13,7 @@ defineProps<{
     </div>
     <div class="category-card__body">
       <h3>
-        <a v-if="href" :href="href">{{ title }}</a>
+        <NuxtLink v-if="href" :to="href">{{ title }}</NuxtLink>
         <template v-else>{{ title }}</template>
       </h3>
       <p>{{ description }}</p>

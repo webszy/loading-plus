@@ -1,0 +1,174 @@
+{
+  "text-loading": {
+    "path": "/text-loading",
+    "heading": "Text Loading Animations",
+    "title": "Text Loading Animations & CSS Examples | Loading.plus",
+    "description": "Explore free text loading animations with CSS examples. Discover typing, fading, blinking, and wave text effects for modern websites.",
+    "hero": "Beautiful text loading effects for websites and applications. Explore lightweight CSS animations for waiting states and loading messages.",
+    "sections": [
+      {
+        "title": "What is a text loading animation?",
+        "text": "A text loading animation adds movement to a short waiting message. The words explain what is happening, while a pulse, a wave, or a few dots indicate that work is still active. Use a specific message such as \u201cSaving changes\u201d when the task is known."
+      },
+      {
+        "title": "Common text loading effects",
+        "text": "Blinking and fading vary emphasis without moving the layout. Typing reveals characters in steps; waves and letter-by-letter effects stagger their timing. Animated dots are a quieter option for buttons and compact status messages."
+      },
+      {
+        "title": "How to create a loading text animation with CSS",
+        "text": "Keep the message in real HTML and animate a decorative element with keyframes. The example below pulses an ellipsis without repeating announcements to screen readers. Remove the waiting state when the request finishes, and show an error with a retry action if it fails."
+      },
+      {
+        "title": "When to use animated loading text",
+        "text": "Use text beside a submit button, during a search, or while preparing a report. Keep messages short and reserve their space to avoid layout jumps. An animation cannot communicate an exact remaining time; provide measured progress separately when it is available."
+      },
+      {
+        "title": "CSS text loading vs animated GIF",
+        "text": "CSS keeps text selectable, translatable, and sharp at different screen sizes. It also responds directly to reduced-motion preferences. A GIF is easier to embed in an image-only environment, but its wording, colors, and resolution are fixed."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do I animate loading text with CSS?",
+        "answer": "Add a class to a text label or its decorative dots, define opacity or transform keyframes, and enable the animation inside a prefers-reduced-motion: no-preference media query."
+      },
+      {
+        "question": "Can text loading animations work without JavaScript?",
+        "answer": "Yes. All six visual effects here run with CSS alone. Your application still needs to manage when the loading state appears and when it is replaced by results."
+      },
+      {
+        "question": "Are CSS text loaders better than GIFs?",
+        "answer": "CSS is generally more flexible for live web interfaces. A ready-made GIF is useful for slides, documentation, and other places that accept images but not custom CSS."
+      }
+    ]
+  },
+  "loading-text-gif": {
+    "path": "/loading-text-gif",
+    "heading": "Loading Text GIFs",
+    "title": "Loading Text GIFs \u2013 Free Animated GIFs | Loading.plus",
+    "description": "Browse free loading text GIFs with animated words, dots, and waiting messages. Preview and download ready-made loading GIF animations.",
+    "hero": "Free animated loading text GIFs for websites, presentations, and interfaces. Preview and download ready-made loading animations.",
+    "sections": [
+      {
+        "title": "What is a loading text GIF?",
+        "text": "A loading text GIF is a looping image containing a waiting message. Each file below contains real animation frames and is ready to save. These original assets have a light background and fixed dimensions; they are not transparent or editable templates."
+      },
+      {
+        "title": "Where to use animated loading text GIFs",
+        "text": "Use these images in a presentation, a prototype, a help article, or a simple website that accepts image uploads. Classic Loading works for a general wait, while Processing describes work already underway. Avoid placing an endless loading image where readers might mistake it for a broken live service."
+      },
+      {
+        "title": "How to use a loading GIF in HTML",
+        "text": "Download the file and host it with your site. The example uses the paths supplied by this collection; adjust them to your own public image directory. Keep the width and height to reserve space, provide a plain-text status, and use the PNG cover for reduced motion. For a persistent loop, also provide a pause control or switch to a static cover after a short preview."
+      },
+      {
+        "title": "Loading text GIF vs CSS loading animation",
+        "text": "GIFs package their frames into one portable image, with timing and text baked in. CSS gives developers control over wording, color, size, and motion preferences without re-exporting an asset. Choose the CSS examples for a responsive application and the downloads for an image-based workflow."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do I download a loading text GIF?",
+        "answer": "Select Download GIF below the preview. The link saves the original animated .gif file, not the static cover. If your browser opens it instead, use Save Image As."
+      },
+      {
+        "question": "Can I use a loading GIF on my website?",
+        "answer": "Yes. These original examples are free to use in personal and commercial projects, with no attribution required. Host the downloaded file yourself and keep an accessible text label next to it."
+      },
+      {
+        "question": "What is the difference between CSS text loading and a GIF?",
+        "answer": "CSS animates live HTML text in the browser. A GIF plays a fixed sequence of raster image frames, so its wording and appearance cannot be changed with text styles."
+      }
+    ]
+  },
+  "indeterminate-progress-bar-gif": {
+    "path": "/indeterminate-progress-bar-gif",
+    "heading": "Indeterminate Progress Bar GIFs",
+    "title": "Indeterminate Progress Bar GIFs | Loading.plus",
+    "description": "Explore free indeterminate progress bar GIFs and looping loading indicators. Preview and download animated progress bars for waiting states.",
+    "hero": "Smooth, looping progress bar animations for tasks with unknown completion times. Explore and download ready-made loading indicators.",
+    "sections": [
+      {
+        "title": "What is an indeterminate progress bar?",
+        "text": "An indeterminate progress bar signals ongoing activity when the completed fraction is unknown. A segment moves across or along a track without claiming that the task is getting closer to a specific percentage. Each GIF here repeats an activity pattern rather than filling from zero to one hundred."
+      },
+      {
+        "title": "Determinate vs indeterminate progress indicators",
+        "text": "A determinate bar represents a measured value, such as bytes uploaded out of a known total. An indeterminate bar only says that work continues. Switch to determinate progress when reliable measurements become available; do not invent percentages to make a wait seem shorter."
+      },
+      {
+        "title": "When to use an indeterminate progress bar",
+        "text": "Use a looping bar for server-side processing, connecting to a service, or fetching a result with no known total. The wide shape fits a panel edge or a compact task row. For long waits, add a useful status message and a cancel or retry option when the application supports one."
+      },
+      {
+        "title": "How to add an animated progress bar GIF to a website",
+        "text": "Download a bar and display it at its native aspect ratio. The example exposes a labeled progressbar without aria-valuenow because the amount is unknown. Replace the indicator when the task finishes; the image itself cannot detect completion."
+      },
+      {
+        "title": "Accessibility considerations for progress indicators",
+        "text": "Give the progress indicator an accessible name and omit aria-valuenow for unknown progress. Mark the region being updated as aria-busy=\"true\" only while work is pending, then set it to false. Announce meaningful state changes rather than every animation cycle, and offer a still alternative to continuous movement."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What does indeterminate progress mean?",
+        "answer": "It means the task is active but the interface cannot calculate a reliable completed fraction or remaining time."
+      },
+      {
+        "question": "How is an indeterminate progress bar different from a normal progress bar?",
+        "answer": "A determinate bar fills according to a real value. An indeterminate bar cycles a segment to indicate activity without displaying a completion percentage."
+      },
+      {
+        "question": "When should I use a looping progress bar?",
+        "answer": "Use one while waiting for work with an unknown total, such as a server response. Use measured progress instead when the completed amount is available."
+      }
+    ]
+  },
+  "shimmer-loading-gif": {
+    "path": "/shimmer-loading-gif",
+    "heading": "Shimmer Loading GIFs",
+    "title": "Shimmer Loading GIFs & Skeleton Loaders | Loading.plus",
+    "description": "Explore shimmer loading GIFs, skeleton screen animations, and animated placeholders. Preview loading effects for cards, images, and content.",
+    "hero": "Smooth shimmer animations and skeleton loading placeholders for modern interfaces. Explore animated content loading effects.",
+    "sections": [
+      {
+        "title": "What is shimmer loading?",
+        "text": "Shimmer loading moves a soft highlight across placeholder shapes. It suggests that content is being prepared while keeping the page structure visible. The examples above model an article, a feed card, a media frame, and a profile rather than an isolated decorative spinner."
+      },
+      {
+        "title": "What is a skeleton screen?",
+        "text": "A skeleton screen is a simplified outline of expected content. Rectangles stand in for text and images, while a circle may reserve an avatar. Skeletons can be static; shimmer is an optional animation layered onto those shapes. Match the eventual layout closely to reduce disruptive shifts."
+      },
+      {
+        "title": "Shimmer loading vs spinner animations",
+        "text": "Skeletons are useful when the structure of a page is known before the data arrives. A spinner is often clearer for a short action that has no content layout to preview. Neither tells users how long a task will take, and an elaborate skeleton can be distracting for a very brief wait."
+      },
+      {
+        "title": "When to use skeleton placeholders",
+        "text": "Use placeholders for a feed, article, profile, or image grid whose layout is predictable. Reserve the same dimensions as the finished content. Replace placeholders with real content or a meaningful error state; never leave an endless shimmer after a failed request."
+      },
+      {
+        "title": "CSS shimmer animation vs GIF",
+        "text": "These GIFs are portable illustrations for prototypes, documentation, and fixed-size embeds. For a responsive product interface, CSS skeletons can follow the actual grid, resize with text, and stop when data arrives. A single GIF cannot adapt its internal shapes to a new layout."
+      },
+      {
+        "title": "Accessibility and reduced motion",
+        "text": "Hide decorative skeleton shapes from assistive technology and provide one concise loading status. Mark the affected content region as busy while fetching data. Respect reduced motion with a still placeholder and let users pause previews. The download includes a PNG cover for each GIF; GIF animation cannot be stopped with animation: none."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is a shimmer loading effect?",
+        "answer": "It is a moving highlight across placeholder shapes, used to indicate that the real content has not arrived yet."
+      },
+      {
+        "question": "How is skeleton loading different from a spinner?",
+        "answer": "A skeleton previews the structure and space of upcoming content. A spinner signals activity without describing that layout."
+      },
+      {
+        "question": "Should I use a GIF or CSS for skeleton loading?",
+        "answer": "Use CSS for responsive, interactive interfaces whose skeleton must match the real layout. Use a GIF when you need a portable animation for a fixed image slot, a slide, or documentation."
+      }
+    ]
+  }
+}
